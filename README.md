@@ -16,6 +16,8 @@ Tested on:
     cd <your_ws>/src
     git clone https://github.com/yezhicheng99/spot_manipulator.git
     git clone https://github.com/yezhicheng99/spot_manipulator_gui.git
+    git clone -b gazebo https://github.com/chvmp/spot_ros.git
+    git clone --recursive https://github.com/chvmp/champ
     git clone https://github.com/chvmp/champ_teleop
     cd ..
     rosdep install --from-paths src --ignore-src -r -y
